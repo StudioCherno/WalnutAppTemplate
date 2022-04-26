@@ -11,11 +11,11 @@ project "WalnutApp"
    {
       "../Walnut/vendor/imgui",
       "../Walnut/vendor/glfw/include",
+      "../Walnut/vendor/glm",
 
       "../Walnut/Walnut/src",
 
       "%{IncludeDir.VulkanSDK}",
-      "%{IncludeDir.glm}",
    }
 
    links
