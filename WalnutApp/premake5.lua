@@ -1,4 +1,4 @@
-project "WalnutApp"
+project (%{wks.name})
    kind "ConsoleApp"
    language "C++"
    cppdialect "C++17"
